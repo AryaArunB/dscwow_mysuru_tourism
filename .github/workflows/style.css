@@ -1,0 +1,101 @@
+.box-1 p{
+    margin:auto 50px;
+    font-family: 
+    font-size: 80%;
+    font-weight: 400;
+    color:wheat;
+    line-height: 1.6em;
+    font-style:italic ;
+}
+h1{
+    font-style:oblique;
+    color:  rgb(238, 222, 153);
+    left: 20px;
+}
+.box-1
+{   background-image: url('../image/showcase.jpg');
+    background-position: center right;
+    height: 380px;
+    margin-bottom: 25px;
+    margin-right: 10px ;
+    border: 2px rgb(241, 231, 137) solid;
+    border-radius: 15px;
+    color: rgb(177, 31, 31);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: rgb(253, 69, 69);
+    border: spacing 20;
+    animation-name: anime;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    
+}
+.container
+{   width: 80%;
+    margin: auto;
+}
+a
+{ 
+    text-decoration: none ;
+    color: black;
+
+}
+@keyframes anime{
+    0% {background-color: rgb(245, 175, 175);}
+    25% {background-color: rgb(253, 144, 144);}
+    50% {background-color: rgb(245, 114, 114);}
+    100% {background-color: rgb(253, 69, 69);}
+}
+h2{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-weight: 700;
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.food :hover
+h2{ text-align: center;
+    cursor: pointer;
+    transform: rotate3d(20deg,30deg);
+}
+
+.activity h2
+{
+    text-align:center;
+    font-style: italic;
+    font-variant: unset;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.mysuru{
+    float: left;
+    width: 33.3%;
+    padding: 100px;
+    cursor: pointer;
+
+    
+}
+.post h1{
+    background-color: coral;
+    cursor: pointer;
+    box-sizing: content-box;
+}
+
+
+a:active
+{
+    background: crimson;
+    color: darkgreen;
+}
+body
+{
+   background: radial-gradient(circle at center, rgb(224, 89, 65) 0, rgba(235, 127, 84, 0.932), rgba(241, 229, 121, 0.993) 100%);
+    
+}
+header
+{
+    font-style: italic;
+    border-spacing: 300cm;
+   
+    font-variant: small-caps;
+   
+}
