@@ -99,3 +99,7 @@ header
     font-variant: small-caps;
    
 }
+.pic{
+    display: flex;
+    padding: 20px;
+}
